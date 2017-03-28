@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="firebase.firebase16allupdate.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/key_xml"
+        android:hint="Key"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Value"
+        android:layout_below="@id/key_xml"
+        android:layout_margin="15dp"
+        android:id="@+id/valu_xml"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add value"
+        android:layout_below="@id/valu_xml"
+        android:id="@+id/add_value"
+        />
+
+
+
+</RelativeLayout>
